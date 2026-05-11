@@ -3,7 +3,7 @@ export default function TopSelling(){
     return(
         <section className="px-10 py-20">
             <h2 className="text-white text-4xl font-bold text-center mb-10">Our Top Selling Plants </h2>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="relative bg-white/5 rounded-[40px] border border-white/10 p-4 flex flex-col items-center gap-4">
                 <div className="relative w-[250px] h-[250px]">
                     <Image

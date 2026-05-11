@@ -4,7 +4,7 @@ export default function ReviewsSection(){
      <h2 className="text-white text-4xl font-bold text-center mb-10">
         What Our Customers Say
          </h2>
-     <div className="grid grid-cols-3 gap-6">
+     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
  <div className="bg-white/5 rounded-[40px] border border-white/20 p-8 flex flex-col gap-4 backdrop-blur-sm">
         <div className="flex items-center gap-4">
